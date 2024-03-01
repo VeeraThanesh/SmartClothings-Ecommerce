@@ -1,0 +1,46 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 60px;
+  box-shadow: 0 1px 3px -2px #000;
+  margin-bottom: 1px;
+  background: white;
+}
+.nav-logo-container {
+  display: flex;
+  gap: 20px;
+}
+.nav-logo-container h6 {
+  color: red;
+  letter-spacing: 2px;
+}
+.nav-logo-admin {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.nav-logo-admin h6 {
+  color: red;
+  letter-spacing: 2px;
+}
+.nav-logo {
+  width: 40px;
+}
+.nav-profile {
+  width: 45px;
+}
+
+/* MEDIA QUERRY */
+
+@media (max-width: 800px) {
+  .navbar {
+    padding: 5px 30px;
+  }
+  .nav-logo {
+    width: 30px;
+  }
+  .nav-profile {
+    width: 35px;
+  }
+}

@@ -1,0 +1,11 @@
+.admin {
+  display: flex;
+}
+
+/* MEDIA QUERRY */
+
+@media (max-width: 800px) {
+  .admin {
+    flex-direction: column;
+  }
+}
